@@ -1,0 +1,32 @@
+{
+  "Python": [
+    {
+      "question": "Что выведет код: print([x**2 for x in range(3)])?",
+      "options": ["[0, 1, 4]", "[1, 4, 9]", "Ошибка", "[0, 1, 2]"],
+      "correct_answer": 0,
+      "explanation": "Генератор списка создает квадраты чисел 0, 1, 2"
+    },
+    {
+      "question": "Какой метод добавляет элемент в конец списка?",
+      "options": ["append()", "add()", "insert()", "push()"],
+      "correct_answer": 0, 
+      "explanation": "Метод append() добавляет элемент в конец списка"
+    }
+  ],
+  "Pandas": [
+    {
+      "question": "Какой метод используется для чтения CSV файла в Pandas?",
+      "options": ["read_csv()", "load_csv()", "open_csv()", "get_csv()"],
+      "correct_answer": 0,
+      "explanation": "pandas.read_csv() - основной метод для чтения CSV файлов"
+    }
+  ],
+  "SQL": [
+    {
+      "question": "Какой оператор SQL используется для фильтрации строк?",
+      "options": ["WHERE", "FILTER", "HAVING", "CONDITION"],
+      "correct_answer": 0,
+      "explanation": "Оператор WHERE используется для фильтрации строк по условию"
+    }
+  ]
+}
